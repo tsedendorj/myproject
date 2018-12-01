@@ -1,0 +1,143 @@
+.required{
+    color: #DB6464;
+    font: 20px sans-serif;
+}
+
+.rowName{
+    font: 12px sans-serif;
+    padding-left: 15px;   
+    border: none;
+}
+
+.rowInput{
+    font: 12px sans-serif;    
+    border: none;
+}
+
+.rowHidden{
+    border-collapse: collapse;
+    height: 40px;
+}
+
+.greenB{
+    height: 30px;    
+    background: linear-gradient(to bottom, #04936c 0%, #016046 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #016046;
+    font: 11px sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+   margin-top: 5px;
+    margin-left: -3px;
+    cursor: pointer;  
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.greenB:hover{
+    opacity: 0.85;
+    transition: opacity 0.1s ease-in-out 0s;
+}
+
+
+.greenBDialog{
+    height: 30px;    
+    background: linear-gradient(to bottom, #04936c 0%, #016046 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #016046;
+    font: bold 11px sans-serif !important;
+    color: #ffffff;  
+    float: right;
+    cursor: pointer;  
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.greenBDialog:hover{
+    opacity: 0.85;
+    transition: opacity 0.1s ease-in-out 0s;
+}
+
+.redBDialog{
+    height: 21px;   
+    background: linear-gradient(to bottom, #da0c0c 0%, #600505 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #600505;
+    font: bold 11px sans-serif !important;
+    color: #ffffff;
+    font-weight: bold;
+    float: right;
+    margin-right: 15px;    
+    cursor: pointer;
+    padding: 7px 10px 0px 10px;
+    text-decoration: none;
+}
+
+.redBDialog:hover{
+    opacity: 0.85;
+    transition: opacity 0.1s ease-in-out 0s;
+}
+
+.redB{
+    height: 21px;   
+    background: linear-gradient(to bottom, #da0c0c 0%, #600505 100%) repeat scroll 0 0 transparent;
+    border: 1px solid #600505;
+    font: 11px sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    float: right;
+    margin-right: 15px;    
+    cursor: pointer;
+    padding: 7px 10px 0px 10px;
+    text-decoration: none;
+}
+
+.redB:hover{
+    opacity: 0.85;
+    transition: opacity 0.1s ease-in-out 0s;
+}
+
+.msg{
+    width: 99%;
+    height: 40px;
+    border: 1px solid #6593cf;
+    background-color: #B1D3FF; 
+    padding: 13px 0 0 10px;
+    margin-top: 15px;
+    color: #333333;
+    font: 12px sans-serif;
+    height: 27px; 
+    display: none;
+}
+
+.msgs{
+    width: 99%;
+    min-height: 27px; 
+    border: 1px solid #6593cf;
+    background-color: #B1D3FF; 
+    padding: 13px 0 0 10px;
+    margin-top: 15px;
+    color: #333333;
+    font: 12px sans-serif;    
+    overflow: auto;
+}
+
+.imgViewer{
+    width:40px;
+    height:40px;    
+    float: left;
+}
+
+.fileUpload{
+    width:209px;
+    float: left;   
+    margin-left: 8px;
+}
+
+.textArea{
+    height: 70px;
+    width: 250px;
+    border: 1px solid #AAAAAA;
+    margin-left: 8px;
+    font: 11px sans-serif;
+    padding: 3px 8px;  
+}

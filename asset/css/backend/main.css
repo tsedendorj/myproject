@@ -1,0 +1,203 @@
+body{    
+    margin: 0px;
+    background-color: #F3F3F3;
+}
+.adminWrapper{
+    overflow: auto;    
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.leftConner{
+    width: 16%;
+    min-height: 100%;
+    background-color: #E3EFFF;
+    float: left;
+    overflow: auto;
+    border-right: #6593CF thin solid;
+}
+#footer {
+    clear:both;
+    background-color: #81BEF7;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.leftTopHolder{
+    width: 100%;
+    height: 150px;   
+    float: left;
+    overflow: auto;
+    border-bottom: #6593CF thin solid;
+}
+
+
+.rightConner{    
+    overflow: hidden;
+     border-left: 1px solid #6593CF;
+
+}
+
+.rightPage{
+    width: 95%;
+    overflow: auto;
+    margin: auto;
+    margin-top: 20px;   
+}
+
+.topNav{
+    width: 100%;
+    height: 35px;  
+    background: url("../../images/system/topnavBg.png") repeat-x scroll 0 0 transparent;
+    display: block;
+    position: fixed;
+    overflow: auto;
+    z-index: 9999;
+}
+
+.welcome{
+    margin: 10px 0px 0px 40px;
+    float: left;    
+}
+
+.line{
+    background: url("../../images/system/divider.png") repeat-x scroll 0 0 transparent;    
+    display: block;
+    height: 7px;
+}
+
+.midNav{
+    background: url("../../images/system/titleRowBg.png") repeat scroll 0 0 transparent;     
+}
+
+.titleArea{
+    padding-top: 36px;
+    width: 100%;
+    height: 80px;
+}
+
+.wrap{
+    margin: 0 3%;
+    height: auto;
+}
+
+.controlB{
+    text-align: center;    
+}
+
+.controlB ul{
+    margin: 0px;
+    padding: 0px; 
+}
+
+.controlB ul li{
+    background: linear-gradient(to bottom, #FAFAFC 0%, #EFEFEF 100%) repeat scroll 0 0 transparent;   
+    border: 1px solid #999999;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px #FFFFFF inset;
+    display: inline-block;
+    margin: 11px 5px 11;
+    text-align: center;
+}
+
+.controlB ul li img{
+    float: left;
+    height: 20px;
+    margin: 5px 8px 8px 0;
+    width: 20px;
+}
+.img_update{
+    height: 80px;
+    width: 150px;
+}
+
+
+.controlB ul li a span {
+    display: block;
+    float: left;
+    margin-top: 8px;
+}
+
+.controlB ul li a {
+    color: #626262;
+    display: block;    
+    font: 12px sans-serif;
+    font-weight: bold;
+    padding: 5px 20px 35px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.pageTitle{
+    float: left;   
+    padding: 24px 0 15px;
+}
+
+.pageTitle1{
+     font: 16px sans-serif;
+     color: #595959;
+     font-weight: bold;
+}
+
+.pageTitle2{
+     font: 12px sans-serif;
+     color: #595959;
+}
+
+.userNav{
+    float: right;
+    width:600px;
+    height: 28px;    
+    margin: 3px 0px 0px 0px;
+    overflow: auto;
+}
+
+.userNav ul{
+    margin: 0px;        
+}
+
+.userNav ul li{
+    float: left;    
+    padding: 7px 15px 0px 15px;
+    list-style: none;
+    font: 11px sans-serif;
+    border-left: #6593CF thin solid;   
+    height: 28px;
+    color: #333333;
+}
+
+.userNav ul li:hover{
+    background-color: #d6e8ff;
+    cursor: pointer;
+}
+
+.userNav ul li:last-child{
+    border-right: #6593CF thin solid;  
+}
+
+.welcome span{
+    font: 11px sans-serif;
+    color: #333333;
+}
+
+.menuHolder{
+    margin-top: 151px;
+}
+
+.logoHolder{
+    margin:auto;   
+    width:95%;
+    margin-top: 20px;
+}
+
+ 
+.userNav ul li span a:link { color:#333333; text-decoration:none;}
+.userNav ul li span a:visited {color:#333333; text-decoration:none;}
+.userNav ul li span a:hover {color:#333333; text-decoration:none;}
+.userNav ul li span a:active {color:#333333; text-decoration:none;}
+.add-bg{
+background-color: #CDCDCD;
+border-bottom: 1px solid white !important;
+}

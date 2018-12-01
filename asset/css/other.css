@@ -1,0 +1,160 @@
+.leftTopHolder {
+    margin-left: 5%;
+    height: 3%;
+    width: 45%;
+    margin-top: 2%;
+
+}
+.body{
+    background-color: #EDF0F5; 
+}
+.main_title {
+    height: 500px;
+    width: 700px;
+    margin-left: 20%;
+    margin-top: 10%;
+    background-color:  #81F781;
+    border: 3px solid #016046;
+}
+
+.p {text-align: center;
+    margin-top: 5%;
+    margin-left:10%;
+    height: 10%;
+    width: 80%;
+    font: 40px italic;
+    color: #424242
+}
+.img{
+
+    padding:10px;
+    width:40%;
+
+}
+.logoHolder{
+
+    width:95%;
+    margin-top: 2%;
+}
+.btnsubmit{
+    width:80px;
+    background-color: #8bb932;
+    color: #fffefe;
+    font: 10px sans-serif;
+    font-weight: bold;    
+    border: #000 solid medium;
+    cursor: pointer;
+}
+.btnreset{    
+    width:80px;
+    background-color: #1e5799;
+    color: #fffefe;
+    font: 10px sans-serif;
+    font-weight: bold;   
+    border: #000 solid medium;
+    cursor: pointer;
+}
+.btncancel{    
+    width:80px;
+    background-color: #b5493f;
+    color: #fffefe;
+    font: 10px sans-serif;
+    font-weight: bold;   
+    border: #000 solid medium;
+    cursor: pointer;
+
+}
+
+#adminloginpanel{
+    background-color: #f2f7fb;
+    width:350px;
+    max-height: 350px;  
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 2px;
+    position: relative;
+    overflow: auto;
+    border: solid 1px #e5e5e5; 
+}
+
+#loginlogo{
+
+    width:350px;
+    height:40px;       
+    position: relative;
+    border-bottom: solid 1px #e5e5e5; 
+}
+
+.title_icon{
+    margin: 10px 0px 0px 10px;
+    float: left;
+}
+
+#title_text{
+    width:110px;
+    height:40px;    
+    color: #595959;
+    font: 10px sans-serif;
+    font-weight: bold;
+    float: left;
+    margin-left: 10px;   
+    border-left: solid 1px #e5e5e5; 
+    line-height: 40px;
+    padding-left: 15px;    
+}
+
+#fieldset{
+    width: 100%;   
+}
+
+.formRow{        
+    width: 100%;       
+    min-height: 65px;
+    border-bottom: solid 1px #e5e5e5;     
+}
+
+.label_input{   
+    width: 30%;   
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #595959;
+    font: 10px sans-serif;    
+}
+
+.login_input{    
+    width: 60%;    
+    float: left;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.inputText{    
+   max-width: 200px;
+   width:auto;
+    height: 30px;
+    color: #595959;
+    font: 10px sans-serif;  
+    margin: 10px;
+}
+
+#control_row{    
+    width: 100%;   
+}
+
+.BtnLogin{
+    color: #595959;
+    float: right;
+    margin-right: 20px;
+    margin-top: 25px;
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.formError{        
+    float: left;
+    color: red;
+    font: 10px sans-serif;  
+    padding: 0px 0px 10px 10px;
+    
+}

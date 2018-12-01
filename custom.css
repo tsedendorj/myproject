@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=cyrillic-ext');
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.topbar{
+  background-color: #f6f7f8;
+  border-bottom: 1px solid #e1e3e6;
+}
+.topbar ul, .topmenu ul{
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+.topbar ul li{
+  display: inline-block;
+  padding: 0 9px;
+}
+.topbar ul li a{
+  font-size: 12px;
+  line-height: 24px;
+  color: #005299;
+  font-weight: 700;
+  text-decoration: none;
+}
+.topbar ul.socials img{
+  width: 16px;
+  margin-top: -3px;
+}
+.logo{
+  padding: 18px 0;
+}
+.logo .logo-img{
+  width: 100%;
+}
+.logo .form-control{
+  border: 5px solid #00b0e6;
+  border-radius: 0!important;
+}
+.logo .btn-info{
+  background-color: #00b0e6;
+  border-radius: 0!important;
+}
+
+.topmenu{
+  background-color: #005299;
+}
+.topmenu a{
+  color: #fff;
+}
+.topmenu li{
+  float: left;
+}
+.topmenu li a{
+  display: block;
+  padding: 7px 25px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.topmenu li a:hover{
+  background-color: #00b0e6;
+}
+.topmenu li:first-child a{
+  padding: 7px 15px;
+}
+.topmenu .col-md-12{
+  padding: 0!important; 
+}
+
+
+/* start footer */
+
+.footer-top{
+  border-top: 5px solid #005299;
+  height: 15px;
+  background-color: #fff;
+  border-bottom: 5px solid #bbeefd;
+}
+.main-footer{
+  padding: 28px 0;
+  background-color: #00b0e6;
+  color: #fff;
+}
+.main-footer a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-content{
+  background: #f5f5f5;
+}
+
+.news-item{
+  height: 369px;
+  margin-bottom: 30px;
+}
+
+.news-item img{
+  width: 100%;
+}
+
+.news-item .news-img{
+  height: 220px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.news-item h3{
+  max-height: 54px;
+  overflow: hidden;
+  font-size: 22px;
+}
+.news-item h3 a{
+  color: #333;
+  font-size: 20px;
+  font-weight: 700;
+}
+.news-item p{
+  color: #777;
+  margin-bottom: 0;
+  max-height: 48px;
+  overflow: hidden;
+}
+
+.news-item small{
+  color: #00b0e6;
+}
